@@ -3,6 +3,9 @@ The official repo for "Can Textual Semantics Mitigate Sounding Object Segmentati
 
 arXiv: TO BE DONE
 
+# Update:
+We propose the [RefAVS task and the RefAVS Bench](https://gewu-lab.github.io/Ref-AVS/) for the research community to explore how to use textual reference to disambiguate the object of interest with multimodal cues in the dynamic audio-visual scenes. You can try the **Null** subset to evaluate the model's **sounding object segmentation preference**!
+
 # Abstract
 The Audio-Visual Segmentation (AVS) task aims to segment sounding objects in the visual space using audio cues.However, in this work, it is recognized that previous AVS methods show a heavy reliance on detrimental segmentation preferences related to audible objects, rather than precise audio guidance. We argue that the primary reason is that audio lacks robust semantics compared to vision, especially in multi-source sounding scenes, resulting in weak audio guidance over the visual space.Motivated by the the fact that text modality is well explored and contains rich abstract semantics, we propose leveraging text cues from the visual scene to enhance audio guidance with the semantics inherent in text. Our approach begins by obtaining scene descriptions through an off-the-shelf image captioner and prompting a frozen large language model to deduce potential sounding objects as text cues.Subsequently, we introduce a novel semantics-driven audio modeling module with a dynamic mask to integrate audio features with text cues, leading to representative sounding object features.These features not only encompass audio cues but also possess vivid semantics, providing clearer guidance in the visual space. Experimental results on AVS benchmarks validate that our method exhibits enhanced sensitivity to audio when aided by text cues, achieving highly competitive performance on all three subsets.
 
