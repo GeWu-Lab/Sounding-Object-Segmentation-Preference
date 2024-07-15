@@ -53,8 +53,9 @@ Examples of the impact of normal audio input and all-mute audio on popular metho
 ```
 @article{wang2024segpref,
           title={Can Textual Semantics Mitigate Sounding Object Segmentation Preference?},
-          author={Yaoting Wang, Peiwen Sun, Yuanchao Li, Honggang Zhang, Di Hu},
+          author={Wang, Yaoting and Sun, Peiwen and Li, Yuanchao and Zhang, Honggang and Hu, Di},
           journal={IEEE European Conference on Computer Vision (ECCV)},
           year={2024},
         }
+```
 ```
