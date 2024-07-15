@@ -20,8 +20,8 @@ From the experiment with manually muted audio input, we observe that most of the
 
 In essence, they learn which objects are most likely audible during training and take shortcuts during inference. To address the above issue, our method aims to enhance the audio-visual correlation by leveraging the text modality, which inherently possesses robust semantic information, to obtain finer-grained audio guidance. We begin by acquiring detailed scene descriptions through an off-the-shelf image captioner. Subsequently, a frozen LLM works as the text cues capturer, collecting potential sounding objects as text cues from the scene descriptions with CoT instructions. Finally, we introduce a novel SeDAM module with a dynamic mask to seamlessly integrate audio features and text semantics through a crossmodal transformer, providing finer audio guidance with text semantic cues. 
 
-# 3. Experiments
-## 3.1 AVS-Benchmarks
+# 2. Experiments
+## 2.1 AVS-Benchmarks
 
 **Performance on AVS-Benchmarks**
 
@@ -31,13 +31,13 @@ In essence, they learn which objects are most likely audible during training and
 
 ![Alt text](./.img/result2.png)
 
-## 3.2Segmenatation Preference
+## 2.2Segmenatation Preference
 
 ![Alt text](./.img/bias.png)
 
 This observation suggests that the models might rely more on the segmentation preferences formed during the training rather than truly learning efficient audio guidance.
 
-# 4. Qualitative results
+# 3. Qualitative results
 
 ![Alt text](./.img/quanti.png)
 
@@ -45,13 +45,13 @@ Examples of the impact of normal audio input and all-mute audio on popular metho
 
 
 
-# 5. Run
+# 4. Run
 ```
 cd SegPref
 sh run.sh
 ```
 
-# 6. Citation
+# 5. Citation
 
 ```
 @article{wang2024segpref,
