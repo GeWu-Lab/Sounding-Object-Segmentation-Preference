@@ -46,7 +46,10 @@ Examples of the impact of normal audio input and all-mute audio on popular metho
 
 
 # 5. Run
-
+```
+cd SegPref
+sh run.sh
+```
 
 # 6. Citation
 
