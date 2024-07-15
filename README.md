@@ -50,7 +50,6 @@ Examples of the impact of normal audio input and all-mute audio on popular metho
 
 # 6. Citation
 
->>> Cite
 ```
 @article{wang2024segpref,
           title={Can Textual Semantics Mitigate Sounding Object Segmentation Preference?},
