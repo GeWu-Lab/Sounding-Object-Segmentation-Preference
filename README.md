@@ -1,8 +1,6 @@
 # Sounding-Object-Segmentation-Preference
 The official repo for "Can Textual Semantics Mitigate Sounding Object Segmentation Preference?", ECCV 2024
 
-arXiv: TO BE DONE
-
 # Update:
 We propose the [RefAVS task and the RefAVS Bench](https://gewu-lab.github.io/Ref-AVS/) for the research community to explore how to use textual reference to disambiguate the object of interest with multimodal cues in the dynamic audio-visual scenes. You can try the **Null** subset to evaluate the model's **sounding object segmentation preference**!
 
