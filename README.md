@@ -1,4 +1,5 @@
 # Chain-of-Thought for Sounding-Object-Segmentation-Preference Elimination
+## Chain-of-Thought for Segmentation-Preference Elimination in Audio-Visual Segmentation (AVS)
 The official repo for "Can Textual Semantics Mitigate Sounding Object Segmentation Preference?", ECCV 2024
 
 # Update:
