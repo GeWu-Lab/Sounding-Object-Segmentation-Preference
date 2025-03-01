@@ -1,5 +1,5 @@
 # Sounding-Object-Segmentation-Preference
-## Chain-of-Thought for Segmentation-Preference Elimination in AVS
+## AVS-CoT | Chain-of-Thought for Segmentation-Preference Elimination in AVS
 The official repo for "Can Textual Semantics Mitigate Sounding Object Segmentation Preference?", ECCV 2024
 
 # Update:
